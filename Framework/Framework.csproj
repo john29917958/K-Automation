@@ -7,7 +7,7 @@
     <ProjectGuid>{444DF570-3153-4E7E-8DFD-060D2046C122}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ncu.Oolab.Korat.Library</RootNamespace>
+    <RootNamespace>Ncu.Oolab.Korat.KAutomation</RootNamespace>
     <AssemblyName>KAutomation</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
