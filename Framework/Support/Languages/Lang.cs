@@ -13,7 +13,7 @@ namespace Ncu.Oolab.Korat.KAutomation.Support.Languages
         {
             if (_resourceManager == null)
             {
-                _resourceManager = new ResourceManager("Framework.Properties.Resources", Assembly.GetEntryAssembly());
+                _resourceManager = new ResourceManager("Ncu.Oolab.Korat.KAutomation.Properties.Resources", Assembly.GetExecutingAssembly());
             }
 
             string content = _resourceManager.GetString(key, CultureInfo.CurrentUICulture);
