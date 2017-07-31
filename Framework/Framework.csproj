@@ -52,6 +52,11 @@
     <Compile Include="App\Automator.cs" />
     <Compile Include="App\IScript.cs" />
     <Compile Include="App\IServices.cs" />
+    <Compile Include="App\Korat\Korat.cs" />
+    <Compile Include="Behaviors\Behaviors.cs" />
+    <Compile Include="Behaviors\BehaviorsPool.cs" />
+    <Compile Include="Behaviors\BehaviorsServiceProvider.cs" />
+    <Compile Include="Exceptions\BehaviorsAlreadyExistsException.cs" />
     <Compile Include="Exceptions\ServiceAlreadyExistsException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -76,7 +81,6 @@
     <None Include="Resources\favicon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behaviors\" />
     <Folder Include="Components\" />
     <Folder Include="Configs\" />
     <Folder Include="Log\" />

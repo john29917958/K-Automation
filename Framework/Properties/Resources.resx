@@ -117,8 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AddBehaviorsNullException" xml:space="preserve">
+    <value>Behaviors to be added should not be null.</value>
+  </data>
   <data name="AutomatorNullException" xml:space="preserve">
     <value>Automator should not be null.</value>
+  </data>
+  <data name="BehaviorsAlreadyExistsException" xml:space="preserve">
+    <value>Behaviors to be added already exists.</value>
+  </data>
+  <data name="BehaviorsPoolNullException" xml:space="preserve">
+    <value>BehaviorsPool instance should not be null.</value>
   </data>
   <data name="IScriptNullException" xml:space="preserve">
     <value>IScript instance should not be null.</value>
@@ -126,7 +135,13 @@
   <data name="IServicesNullException" xml:space="preserve">
     <value>IServices instance should not be null.</value>
   </data>
+  <data name="KoratNullException" xml:space="preserve">
+    <value>Korat instance should not be null.</value>
+  </data>
   <data name="ServiceAlreadyExistsException" xml:space="preserve">
     <value>The service "{0}" to be registered already exists.</value>
+  </data>
+  <data name="ServiceTypeLoadException" xml:space="preserve">
+    <value>The the requested service cannot be loaded and converted to type "{0}".</value>
   </data>
 </root>

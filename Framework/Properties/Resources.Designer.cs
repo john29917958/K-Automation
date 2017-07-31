@@ -61,11 +61,38 @@ namespace Ncu.Oolab.Korat.KAutomation.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Behaviors to be added should not be null..
+        /// </summary>
+        internal static string AddBehaviorsNullException {
+            get {
+                return ResourceManager.GetString("AddBehaviorsNullException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Automator should not be null..
         /// </summary>
         internal static string AutomatorNullException {
             get {
                 return ResourceManager.GetString("AutomatorNullException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Behaviors to be added already exists..
+        /// </summary>
+        internal static string BehaviorsAlreadyExistsException {
+            get {
+                return ResourceManager.GetString("BehaviorsAlreadyExistsException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to BehaviorsPool instance should not be null..
+        /// </summary>
+        internal static string BehaviorsPoolNullException {
+            get {
+                return ResourceManager.GetString("BehaviorsPoolNullException", resourceCulture);
             }
         }
         
@@ -88,11 +115,29 @@ namespace Ncu.Oolab.Korat.KAutomation.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Korat instance should not be null..
+        /// </summary>
+        internal static string KoratNullException {
+            get {
+                return ResourceManager.GetString("KoratNullException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The service &quot;{0}&quot; to be registered already exists..
         /// </summary>
         internal static string ServiceAlreadyExistsException {
             get {
                 return ResourceManager.GetString("ServiceAlreadyExistsException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The the requested service cannot be loaded and converted to type &quot;{0}&quot;..
+        /// </summary>
+        internal static string ServiceTypeLoadException {
+            get {
+                return ResourceManager.GetString("ServiceTypeLoadException", resourceCulture);
             }
         }
     }

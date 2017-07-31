@@ -32,6 +32,22 @@ namespace Ncu.Oolab.Korat.KAutomation.App
             Services.Add(name, service);
         }
 
+        public T RequestService<T>(string serviceName) where T : class
+        {
+            if (!Services.ContainsKey(serviceName))
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+
+            T service = Services[serviceName] as T;
+            if (service == null)
+            {
+                throw new TypeLoadException(Lang.Get(LanguageKeys.ServiceTypeLoadException, typeof(T).Name));
+            }
+
+            return service;
+        }
+
         public void Run(IScript script)
         {
             if (script == null)

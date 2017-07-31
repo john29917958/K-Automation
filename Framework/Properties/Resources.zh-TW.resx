@@ -117,8 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AddBehaviorsNullException" xml:space="preserve">
+    <value>欲被加入的 Behaviors 不得為 null。</value>
+  </data>
   <data name="AutomatorNullException" xml:space="preserve">
     <value>Automator 實體不得為 null。</value>
+  </data>
+  <data name="BehaviorsAlreadyExistsException" xml:space="preserve">
+    <value>欲被加入的 Behaviors 已經存在。</value>
+  </data>
+  <data name="BehaviorsPool" xml:space="preserve">
+    <value>BehaviorsPool 實體不得為 null。</value>
   </data>
   <data name="IScriptNullException" xml:space="preserve">
     <value>IScript 實體不得為 null。</value>
@@ -126,7 +135,13 @@
   <data name="IServicesNullException" xml:space="preserve">
     <value>IServices 實體不得為 null。</value>
   </data>
+  <data name="KoratNullException" xml:space="preserve">
+    <value>Korat 實體不得為 null。</value>
+  </data>
   <data name="ServiceAlreadyExistsException" xml:space="preserve">
     <value>欲被註冊的 Service "{0}" 已經存在。</value>
+  </data>
+  <data name="ServiceTypeLoadException" xml:space="preserve">
+    <value>欲取得的 Service 無法被載入並轉換成 "{0}" 型態。</value>
   </data>
 </root>
