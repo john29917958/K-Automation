@@ -47,19 +47,42 @@
   <ItemGroup>
     <Compile Include="App\Automator.cs" />
     <Compile Include="App\IScript.cs" />
+    <Compile Include="App\IServices.cs" />
+    <Compile Include="Exceptions\ServiceAlreadyExistsException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.zh-TW.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.zh-TW.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Support\Languages\Lang.cs" />
+    <Compile Include="Support\Languages\LanguageKeys.cs" />
+    <Compile Include="Support\ServiceProvider.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.zh-TW.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.zh-TW.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <None Include="Resources\favicon.ico" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behaviors\" />
     <Folder Include="Components\" />
     <Folder Include="Configs\" />
-    <Folder Include="Exceptions\" />
     <Folder Include="Log\" />
     <Folder Include="Recognition\" />
-    <Folder Include="Support\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
