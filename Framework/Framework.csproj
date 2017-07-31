@@ -50,5 +50,15 @@
   <ItemGroup>
     <None Include="Resources\favicon.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Components\" />
+    <Folder Include="Configs\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Log\" />
+    <Folder Include="Recognition\" />
+    <Folder Include="Support\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
