@@ -129,6 +129,9 @@
   <data name="BehaviorsPool" xml:space="preserve">
     <value>BehaviorsPool 實體不得為 null。</value>
   </data>
+  <data name="ConfigFileNotFoundException" xml:space="preserve">
+    <value>找不到設定檔 "{0}"。</value>
+  </data>
   <data name="IScriptNullException" xml:space="preserve">
     <value>IScript 實體不得為 null。</value>
   </data>

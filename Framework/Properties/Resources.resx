@@ -129,6 +129,9 @@
   <data name="BehaviorsPoolNullException" xml:space="preserve">
     <value>BehaviorsPool instance should not be null.</value>
   </data>
+  <data name="ConfigFileNotFoundException" xml:space="preserve">
+    <value>Configuration file "{0}" cannot be found.</value>
+  </data>
   <data name="IScriptNullException" xml:space="preserve">
     <value>IScript instance should not be null.</value>
   </data>

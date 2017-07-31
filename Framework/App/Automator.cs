@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Ncu.Oolab.Korat.KAutomation.Configs;
 using Ncu.Oolab.Korat.KAutomation.Exceptions;
 using Ncu.Oolab.Korat.KAutomation.Support;
 using Ncu.Oolab.Korat.KAutomation.Support.Languages;
@@ -8,6 +9,8 @@ namespace Ncu.Oolab.Korat.KAutomation.App
 {
     public class Automator
     {
+        public Configuration Configuration { get; internal set; }
+
         protected Dictionary<string, object> Services;
 
         public Automator(IServices services)
@@ -19,6 +22,7 @@ namespace Ncu.Oolab.Korat.KAutomation.App
 
             Services = new Dictionary<string, object>();
 
+            Configuration = ConfigLoader.Load("Configs");
             RegisterServices(services);
         }
 

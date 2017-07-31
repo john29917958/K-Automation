@@ -97,6 +97,15 @@ namespace Ncu.Oolab.Korat.KAutomation.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Configuration file &quot;{0}&quot; cannot be found..
+        /// </summary>
+        internal static string ConfigFileNotFoundException {
+            get {
+                return ResourceManager.GetString("ConfigFileNotFoundException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to IScript instance should not be null..
         /// </summary>
         internal static string IScriptNullException {

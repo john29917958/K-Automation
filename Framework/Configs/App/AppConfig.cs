@@ -1,4 +1,4 @@
-﻿namespace Ncu.Oolab.Korat.KAutomation.Configs
+﻿namespace Ncu.Oolab.Korat.KAutomation.Configs.App
 {
     public enum Environments { Develop, Testing, Production }
 
