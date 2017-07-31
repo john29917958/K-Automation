@@ -56,6 +56,8 @@
     <Compile Include="Behaviors\Behaviors.cs" />
     <Compile Include="Behaviors\BehaviorsPool.cs" />
     <Compile Include="Behaviors\BehaviorsServiceProvider.cs" />
+    <Compile Include="Configs\AppConfig.cs" />
+    <Compile Include="Configs\Configuration.cs" />
     <Compile Include="Exceptions\BehaviorsAlreadyExistsException.cs" />
     <Compile Include="Exceptions\ServiceAlreadyExistsException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,7 +84,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Components\" />
-    <Folder Include="Configs\" />
     <Folder Include="Log\" />
     <Folder Include="Recognition\" />
   </ItemGroup>
